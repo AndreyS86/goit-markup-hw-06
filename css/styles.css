@@ -56,24 +56,25 @@ list-style: none;
 }
 
 /* -------------HEADER-------------- */
+
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header .container {
   display: flex;
-  border-bottom: 1px solid #ECECEC;
 }
 
 .header-list {
   display: flex;
   column-gap: 50px;
-
-
 }
 
 .header-list-contacts {
   display: flex;
   column-gap: 30px;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .header-logo{
@@ -115,6 +116,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--text-secondary-color);
+
 }
  
 .header-link:hover,
@@ -125,9 +127,12 @@ color: var(--link-btn-color);
 .header-tel {
   display: inline-block;
   max-width: 122px;
-
 }
 
+.header-item {
+  padding-top: 32px;
+padding-bottom: 32px;
+}
 
 .header-mail-link:hover,
 .header-mail-link:focus {
@@ -140,10 +145,10 @@ color: var(--link-btn-color);
 }
 
 .header-nav {
+  display: flex;
   margin-right: 344px;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .active {
@@ -238,6 +243,7 @@ padding-bottom: 94px;
   max-width: 270px;
 }
 
+
 .peculiarities-title {
     font-weight: 700;
     font-size: 14px;
@@ -270,9 +276,12 @@ color:  var(--main-title-color);
 margin-bottom: 50px;
 }
 
-.about-item {
- 
+.img {
+  display: block;
+  max-width: 370;
+  height: auto;
 }
+
 .about-list {
   display: flex;
   justify-content: space-between;
@@ -395,6 +404,17 @@ letter-spacing: 0.02em;
 color:  var(--adress-collor);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+color: var(--link-btn-color);
+}
+
+.footer-tel:hover,
+.footer-:focus {
+color: var(--link-btn-color);
+}
+
+
 .footer-adress-link:hover,
 .footer-adress-link:focus {
 color: var(--link-btn-color);
@@ -406,7 +426,8 @@ color: var(--link-btn-color);
 .buttons-list {
   display: flex;
   column-gap: 8px;
-margin-left: 312px;
+justify-content: center;
+margin-bottom: 50px;
 }
 
 .buttons-btn {
@@ -420,10 +441,6 @@ color: var(--main-title-color);
 padding: 6px 22px ; 
 border: transparent;
 border-radius: 4px;
-}
-
-.buttons-item {
-padding-bottom: 50px;
 }
 
 .buttons-btn:hover,
