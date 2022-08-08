@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,23 +30,29 @@
         <nav class="header-nav">
           <ul class="header-list list">
             <li class="header-item">
-              <a href="./index.html" class="header-link link active">Студия</a>
+              <a href="./index.html" class="header-link link active">Студія</a>
             </li>
             <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+              <a href="./portfolio.html" class="header-link link">Портфоліо</a>
             </li>
             <li class="header-item">
-              <a href="#" class="header-link link">Контакты</a>
+              <a href="#" class="header-link link">Контакти</a>
             </li>
           </ul>
         </nav>
         <ul class="header-list-contacts list">
           <li class="header-item">
+            <svg class="header-icon">
+              <use href="./imges/symbol-defs.svg#icon-envelope-hover"></use>
+            </svg>
             <a href="info@devstudio.com" class="header-mail-link link"
               >info@devstudio.com</a
             >
           </li>
           <li class="header-item">
+            <svg class="header-icon">
+              <use href="./imges/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
             <a href="tel:+380961111111" class="header-tel link"
               >+38 096 111 11 11</a
             >
@@ -57,42 +63,75 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <div class="hero-button">
-            <button type="button" class="hero-btn">Заказать услугу</button>
+            <button type="button" class="hero-btn">Замовити послугу</button>
           </div>
         </div>
       </section>
       <section class="peculiarities">
         <div class="container">
-          <h2 class="visually-hidden">Особенности</h2>
+          <h2 class="visually-hidden">Особливості</h2>
           <ul class="peculiarities-list list">
             <li class="peculiarities-item">
-              <h3 class="peculiarities-title">Внимание к деталям</h3>
+              <div class="thumb">
+                <svg class="piculiartis-thumb">
+                  <use
+                    href="./imges/symbol-defs.svg#icon-antenna-1"
+                    width="70"
+                    class=""
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="peculiarities-text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
               </p>
             </li>
             <li class="peculiarities-item">
-              <h3 class="peculiarities-title">Пунктуальность</h3>
+              <div class="thumb">
+                <svg class="piculiartis-thumb">
+                  <use
+                    href="./imges/symbol-defs.svg#icon-clock-1"
+                    width="70"
+                    class="thumb-icons"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="peculiarities-text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
               </p>
             </li>
             <li class="peculiarities-item">
-              <h3 class="peculiarities-title">Планирование</h3>
+              <div class="thumb">
+                <svg class="piculiartis-thumb">
+                  <use
+                    href="./imges/symbol-defs.svg#icon-diagram-1"
+                    width="70"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
               <p class="peculiarities-text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+                Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="peculiarities-item">
-              <h3 class="peculiarities-title">Современные технологии</h3>
+              <div class="thumb">
+                <svg class="piculiartis-thumb">
+                  <use
+                    href="./imges/symbol-defs.svg#icon-astronaut-1"
+                    width="70"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="peculiarities-text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
               </p>
             </li>
           </ul>
@@ -100,10 +139,10 @@
       </section>
       <section class="about">
         <div class="container">
-          <h2 class="about-title">Чем мы занимаемся</h2>
+          <h2 class="about-title">Чим ми займаємося</h2>
           <ul class="about-list list">
             <li class="about-item">
-              <img src="./imges/img1.jpg" alt="Разработка сайтов"/>
+              <img src="./imges/img1.jpg" alt="Разработка сайтов" />
             </li>
             <li class="about-item">
               <img
@@ -129,8 +168,46 @@
             <li class="team-item">
               <img src="./imges/img4.jpg" width="270" alt="Product Designer" />
               <div class="item-title">
-                <h3 class="team-item-title">Игорь Демьяненко</h3>
+                <h3 class="team-item-title">Ігор Дем'яненко</h3>
                 <p lang="en" class="team-item-profession">Product Designer</p>
+                <ul class="team-soc list">
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
@@ -140,26 +217,183 @@
                 alt="Frontend Developer"
               />
               <div class="item-title">
-                <h3 class="team-item-title">Ольга Репина</h3>
+                <h3 class="team-item-title">Ольга Рєпіна</h3>
                 <p lang="en" class="team-item-profession">Frontend Developer</p>
+                <ul class="team-soc list">
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
               <img src="./imges/img6.jpg" width="270" alt="Marketing" />
               <div class="item-title">
-                <h3 class="team-item-title">Николай Тарасов</h3>
+                <h3 class="team-item-title">Микола Тарасов</h3>
                 <p lang="en" class="team-item-profession">Marketing</p>
+                <ul class="team-soc list">
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-item">
               <img src="./imges/img7.jpg" width="270" alt="UI Designer" />
               <div class="item-title">
-                <h3 class="team-item-title">Михаил Ермаков</h3>
+                <h3 class="team-item-title">Михайло Єрмаков</h3>
                 <p lang="en" class="team-item-profession">UI Designer</p>
+                <ul class="team-soc list">
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-items">
+                    <a href="" class="team-soc-link link">
+                      <svg class="team-soc-icon" width="20" height="20">
+                        <use
+                          href="./imges/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
+      </section>
+      <section class="clients section">
+        <h2 class="clients-title">Постійні клієнти</h2>
+        <ul class="clients-list list">
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-Logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-Logo-Company"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-LogoCompany"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-LogoFosterPeters"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-LogoBrand"></use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="" class="clients-link link">
+              <svg class="clienys-icon" width="106" height="60">
+                <use href="./imges/symbol-defs.svg#icon-LogoTagLine"></use>
+              </svg></a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -173,7 +407,7 @@
               href="https://goo.gl/maps/jEp3xoVWDoY25PXZ6"
               target="_blank"
               class="footer-adress-link link"
-              >г. Киев, пр-т Леси Украинки, 26</a
+              >м. Київ, пр-т Лесі Українки, 26</a
             >
           </div>
           <ul class="footer-list list">
