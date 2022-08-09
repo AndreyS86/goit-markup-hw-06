@@ -85,9 +85,8 @@ list-style: none;
 
 .header-list-contacts {
   display: flex;
-  column-gap: 30px;
+  gap: 30px;
   align-items: center;
-
 }
 
 .header-logo{
@@ -129,8 +128,6 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: var(--text-secondary-color);
-display: flex;
-
 }
  
 .header-link:hover,
@@ -154,23 +151,19 @@ display: flex;
   height: 12px; 
   display: block;
   margin-right: 10px;
+  fill: #000000;
 }
 
+.icon-tel {
+  width: 10px;
+  height: 16px;
+
+}
 
 .header-mail-link:hover,
 .header-mail-link:focus {
 color: var(--link-btn-color);
 }
-
-/* .header-mail-link::before {
-  background-size: cover;
-  content: "";
-  width: 16px;
-  height: 12px;
-background-color: #2196F3;
-margin-right: 10px;
-align-items: center;
-} */
 
 .header-tel:hover,
 .header-tel:focus {
@@ -270,11 +263,10 @@ padding-bottom: 94px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
-  display: block;
-}
-
-.piculiartis-thumb {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .peculiarities-title {
@@ -293,6 +285,8 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--text-secondary-color);
 }
+
+
 
 /* -------------ABOUT-------------- */
 .about {
@@ -370,7 +364,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: AFB1B8;
+fill: #AFB1B8;
 }
 
 .team-soc-link:hover,
@@ -414,6 +408,7 @@ margin-bottom: 50px;
 .clients-list {
   display: flex;
   gap: 30px;
+ justify-content: center;
 }
 
 .clients-item {
@@ -421,22 +416,24 @@ margin-bottom: 50px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  padding-top: 16px;
 }
+
 .clients-link {
 fill: #AFB1B8;
 }
 
+.clients-icon-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 
 .clients-link:hover,
 .clients-link:focus {
 fill: #2196F3;
 }
-
-.clients-list:hover,
-.clients-list:focus {
-border-color: #2196F3;
-}
-
 
 /* -------------FOOTER-------------- */
 
