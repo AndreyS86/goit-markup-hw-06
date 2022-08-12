@@ -144,20 +144,18 @@ color: var(--link-btn-color);
   padding-top: 32px;
 padding-bottom: 32px;
 display: flex;
+fill: var(--text-secondary-color);
 }
 
-.header-icon {
-  width: 16px;
-  height: 12px; 
+.header-icon {  
   display: block;
   margin-right: 10px;
-  fill: #000000;
+  fill: currentColor;
 }
 
-.icon-tel {
-  width: 10px;
-  height: 16px;
-
+.header-icon:hover,
+.header-icon:focus {
+  fill: var(--link-btn-color);
 }
 
 .header-mail-link:hover,
@@ -512,6 +510,37 @@ color: var(--link-btn-color);
 color: var(--link-btn-color);
 }
 
+.footer-soc-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+
+.footer-soc {
+  display: flex;  
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-soc-link {
+width: 44px;
+height: 44px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-contacts .container {
+  display: flex;
+}
+
 
 /* ----------------BUTTONS--------------- */
 
@@ -539,6 +568,7 @@ border-radius: 4px;
 .buttons-btn:focus {
 color: var(--background-title-color);
 background-color: var(--link-btn-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .current-button {
@@ -575,5 +605,9 @@ color: var(--text-secondary-color);
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   padding: 20px 24px 20px 24px;
-};
+}
+
+.works-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
  
