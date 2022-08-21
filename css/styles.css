@@ -127,8 +127,7 @@ font-size: 14px;
 line-height:1.14;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
-padding-top: 32px;
-padding-bottom: 32px;
+
 }
 
 .header-mail-link,
@@ -139,9 +138,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--text-secondary-color);
 display: flex;
-padding-top: 2px;
-padding-bottom: 2px;
-
+align-items: center;
 }
  
 .header-link:hover,
@@ -156,11 +153,6 @@ color: var(--link-btn-color);
   fill: currentColor;
 }
 
-/* .header-icon:hover,
-.header-icon:focus {
-  fill: var(--link-btn-color);
-} */
-
 .header-mail-link:hover,
 .header-mail-link:focus {
 color: var(--link-btn-color);
@@ -169,6 +161,11 @@ color: var(--link-btn-color);
 .header-tel:hover,
 .header-tel:focus {
 color: var(--link-btn-color);
+}
+
+.header-item {
+  padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .header-nav {
@@ -238,6 +235,7 @@ min-width: 216px;
 padding: 10px 32px 10px 32px;
 margin-left: auto;
 margin-right: auto;
+border: inherit;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
