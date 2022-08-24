@@ -89,8 +89,6 @@ img {
 .header-list {
   display: flex;
   column-gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-list-contacts {
@@ -139,7 +137,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-secondary-color);
   display: flex;
-  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .header-item {
@@ -257,14 +256,13 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .modal {
   position: absolute;
   top: 50%;
-  left: 50%;  
+  left: 50%;
   width: 528px;
   min-height: 581px;
   background-color: #ffffff;
@@ -286,12 +284,11 @@ img {
   padding: 0;
 }
 
-
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-} 
+}
 
 .hero-btn-close {
   display: flex;
