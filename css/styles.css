@@ -279,24 +279,27 @@ img {
 
 .close {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   right: 8px;
   top: 8px;
   padding: 0;
+}
+
+.hero-btn-close {
+fill: rgba(0, 0, 0, 1);
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-
-.hero-btn-close {
-  display: flex;
-  height: 30px;
-  width: 30px;
-  background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
 }
 
 /* -------------peculiarities-------------- */
@@ -371,12 +374,13 @@ img {
 .about-top-text {
   position: absolute;
   width: 100%;
-  height: auto;
-  padding: 27px 0;
+  height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
