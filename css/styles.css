@@ -264,7 +264,7 @@ img {
   top: 50%;
   left: 50%;
   width: 528px;
-  min-height: 581px;
+  height: 581px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -282,11 +282,16 @@ img {
 
   color: #212121;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
-.modal-form{ 
+.modal-form {
+  margin: 0;
+}
 
+.input-field {
+margin: 0;
+padding: 0;
 }
 
 .form-input {
@@ -295,9 +300,55 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 10px;
+  padding-left: 15px;
+}
+.input-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+  display: block;
+  margin-bottom: 4px;
 }
 
-.form-button {
+.coments-form {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+}
+
+.checkbox-form {
+  display: flex;
+  text-align: center;
+margin-bottom: 30px; 
+} 
+
+.agreement-title {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.agreement-span {
+  color: #2196f3;
+}
+
+.form-butotn {
+  display: flex;
+  justify-content: center;
+}
+.form-btn {
+  position: absolute;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -311,6 +362,7 @@ img {
   border-radius: 4px;
   border-color: transparent;
   padding: 10px 52px;
+  height: 50px;
 }
 
 .backdrop.is-hidden .modal {
@@ -331,6 +383,10 @@ img {
   top: 8px;
   padding: 0;
 }
+
+
+
+
 
 .hero-btn-close {
   fill: rgba(0, 0, 0, 1);
