@@ -450,13 +450,31 @@
                 </a>
               </li>
             </ul>
-        </div>
-        <div class="subscription">
-          <strong class="subscription-text">Підпишіться на розсилку</strong>
+          </div>
+
+        <div class="subscription-footer">
+          <b  class="subscription-text" >Підпишіться на розсилку</b>
+         <div class="subscription-button">
+          <input
+            type="email"
+            name="subscription-email"
+            id="subscription-email"
+            placeholder="E-mail"
+            class="subscription-input"
+            required>
+           <label for="subscription-email">
+          
+            <button type="submit" class="subscription-btn">Підписатися
+              <svg class="subscription-icon" width="24" height="24">
+                <use href="./imges/icons.svg#icon-icon-send"></use>
+              </svg> 
+            </button>
+           </label>
+          </div>
         </div>
     </footer>
 
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close" data-modal-close>
             <svg class="hero-btn-close" width="11" height="11">
@@ -468,7 +486,8 @@
           <div class="input-field">
            <label for="user-name" class="input-title">Ім'я</label>
            <div class="input-wrap">
-            <input type="name" 
+            <input 
+            type="name" 
             type="text"
             class="form-input"
             name="user-name"
@@ -484,7 +503,8 @@
           <div class="input-field">
            <label for="user-tel" class="input-title">Телефон</label>
            <div class="input-wrap">
-           <input type="tel"
+           <input
+             type="tel"
              class="form-input"
              name="user-tel" 
              placeholder=" "
@@ -500,7 +520,8 @@
           <div class="input-field">
            <label for="user-tel" class="input-title">Пошта</label>
            <div class="input-wrap">
-           <input type="email"
+           <input
+             type="email"
              class="form-input" 
              name="user-email" 
              placeholder=" "
@@ -526,9 +547,15 @@
              name="agreement"  
              id="agreement"
              value="true"
-             class="input-chek"
+             class="input-chek visually-hidden"
             />
-           <label for="agreement" class="agreement-text">Погоджуюся з розсилкою та приймаю  <span class="agreement-span"> Умови договору</span> </label>
+           <label for="agreement" class="agreement-text"><span class="">
+            <svg class="chek-icon" width="16" height="15">
+              <use href="./imges/icons.svg#icon-Chek"></use>
+            </svg>
+
+          </span>Погоджуюся з розсилкою та приймаю<a href="#" class="chek-link">Умови договору</a></label>
+          
           </div>
           <div class="form-butotn">
         <button type="submit" class="form-btn">Відправити</button>
@@ -539,3 +566,6 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
+
+
+<></button>
