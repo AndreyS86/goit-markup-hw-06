@@ -456,7 +456,7 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
       <div class="modal">
         <button class="close" data-modal-close>
             <svg class="hero-btn-close" width="11" height="11">
@@ -467,17 +467,23 @@
         <form class="modal-form">
           <div class="input-field">
            <label for="user-name" class="input-title">Ім'я</label>
-           <input type="name" 
-             type="text"
-             class="form-input"
-             name="user-name"
-             placeholder=" "
-             required
-             id="user-name">
+           <div class="input-wrap">
+            <input type="name" 
+            type="text"
+            class="form-input"
+            name="user-name"
+            placeholder=" "
+            required
+            id="user-name">
+            <svg class="input-icon" width="13" height="13">
+             <use href="./imges/icons.svg#icon-siluet"></use>
+            </svg>
+           </div>
           </div>
 
           <div class="input-field">
            <label for="user-tel" class="input-title">Телефон</label>
+           <div class="input-wrap">
            <input type="tel"
              class="form-input"
              name="user-tel" 
@@ -485,16 +491,25 @@
              minlength="10"
              required
              id="user-tel">
+             <svg class="input-icon" width="12" height="12">
+              <use href="./imges/icons.svg#icon-colling"></use>
+             </svg>
+            </div>
           </div>
 
           <div class="input-field">
            <label for="user-tel" class="input-title">Пошта</label>
+           <div class="input-wrap">
            <input type="email"
              class="form-input" 
              name="user-email" 
              placeholder=" "
              required
              id="user-email">
+             <svg class="input-icon" width="15" height="12">
+              <use href="./imges/icons.svg#icon-mail"></use>
+             </svg>
+            </div>
           </div>
 
           <div class="input-field">
@@ -504,9 +519,16 @@
              class="coments-form"
              placeholder="Введіть текст"></textarea>
           </div>
-          <div class="checkbox-form">
-           <input type="checkbox" id="agreement" name="size"  value="agreement"/>
-           <label for="agreement" class="agreement-title">Погоджуюся з розсилкою та приймаю <span class="agreement-span"> Умови договору</span></label>
+
+          <div class="input-field">
+           <input
+             type="checkbox"
+             name="agreement"  
+             id="agreement"
+             value="true"
+             class="input-chek"
+            />
+           <label for="agreement" class="agreement-text">Погоджуюся з розсилкою та приймаю  <span class="agreement-span"> Умови договору</span> </label>
           </div>
           <div class="form-butotn">
         <button type="submit" class="form-btn">Відправити</button>
