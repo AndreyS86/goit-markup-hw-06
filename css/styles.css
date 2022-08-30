@@ -497,9 +497,6 @@ img {
   color: var(--background-title-color);
 }
 
-.footer-adress {
-}
-
 .footer-adress-link {
   display: block;
   font-style: normal;
@@ -625,10 +622,10 @@ img {
 .subscription-input:hover,
 .subscription-input:focus {
   /* fill: #2196f3; */
- outline-color: #2196f3;
+  outline-color: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} 
+}
 
 .subscription-btn {
   font-weight: 700;
@@ -735,8 +732,8 @@ img {
 .works-item:hover .works-top-text {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} 
- 
+}
+
 .works-top-wrap {
   position: relative;
   overflow: hidden;
@@ -931,24 +928,6 @@ img {
   border-color: var(--link-btn-color);
 }
 
-/* .agreement-text::before {
-  content: " ";
-  width: 16px;
-  height: 15px;
-  border: 2px solid #000000;
-  border-radius: 3px;
-  margin-right: 8.38px;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/.input-chek:checked + .agreement-text::before {
-background-color: var(--link-btn-color);
-background-image: url(../imges/Chek-icon.svg);
-background-repeat: no-repeat;
-border: none;
-background-position: center;
-} */
-
 .input-icon {
   position: absolute;
   left: 15px;
@@ -957,7 +936,7 @@ background-position: center;
 }
 
 .form-btn {
-display: block;
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
