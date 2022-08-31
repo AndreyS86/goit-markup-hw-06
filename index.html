@@ -447,11 +447,10 @@
               </li>
             </ul>
           </div>
-
-          <form class="footer-form">
+          <div class="footer-form">
           <p  class="subscription-text" >Підпишіться на розсилку</p>
-         <div class="subscription-button">
-          <label for="subscription-email"></label>
+          <form class="subscription-form">
+          <label for="subscription-email">
           <input
             type="email"
             name="subscription-email"
@@ -459,13 +458,14 @@
             placeholder="E-mail"
             class="subscription-input"
             required>
+          </label>
             <button type="submit" class="subscription-btn">Підписатися
               <svg class="subscription-icon" width="24" height="24">
                 <use href="./imges/icons.svg#icon-icon-send"></use>
               </svg> 
             </button>
+           </form>
           </div>
-          </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
